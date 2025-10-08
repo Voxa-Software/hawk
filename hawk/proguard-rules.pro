@@ -30,3 +30,10 @@
   void set*(***);
   *** get*();
 }
+
+# Conceal
+-keep class com.facebook.crypto.** { *; }
+-keep class com.facebook.jni.** { *; }
+-keepclassmembers class * {
+    native <methods>;
+}

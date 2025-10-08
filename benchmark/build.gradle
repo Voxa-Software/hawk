@@ -5,6 +5,9 @@ android {
   buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
+
+    namespace 'com.orhanobut.benchmark'
+
     applicationId "com.orhanobut.benchmark"
     minSdkVersion rootProject.ext.minSdkVersion
     targetSdkVersion 26
